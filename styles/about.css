@@ -64,6 +64,10 @@ body {
 }
 
 @media only screen and (max-width: 400px) {
+    #impor-head {
+        padding: 8px 10%;
+    }
+    
     #top-icon {
         display: none;
     }
