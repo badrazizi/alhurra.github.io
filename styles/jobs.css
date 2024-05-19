@@ -63,6 +63,12 @@ body {
     text-decoration: none;
 }
 
+#bg-about {
+    z-index: -2;
+    position: fixed;
+    opacity: 0.5;
+}
+
 #content-body {
     margin: 16px;
     width: calc(100% - 32px);
