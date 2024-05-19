@@ -63,20 +63,6 @@ body {
     text-decoration: none;
 }
 
-@media only screen and (max-width: 400px) {
-    #top-icon {
-        display: none;
-    }
-
-    #top-title {
-        font-size: large;
-    }
-
-    .top-menu-selection a {
-        font-size: medium;
-    }
-}
-
 #content-body {
     margin: 16px;
     width: calc(100% - 32px);
@@ -108,4 +94,18 @@ body {
     font-size: larger;
     color: var(--Text-Color);
     text-decoration: none;
+}
+
+@media only screen and (max-width: 450px) {
+    #top-icon {
+        display: none;
+    }
+
+    #top-title {
+        font-size: large;
+    }
+
+    .top-menu-selection a {
+        font-size: medium;
+    }
 }
