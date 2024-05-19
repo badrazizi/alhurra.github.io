@@ -63,24 +63,6 @@ body {
     text-decoration: none;
 }
 
-@media only screen and (max-width: 400px) {
-    #impor-head {
-        padding: 8px 10%;
-    }
-    
-    #top-icon {
-        display: none;
-    }
-
-    #top-title {
-        font-size: large;
-    }
-
-    .top-menu-selection a {
-        font-size: medium;
-    }
-}
-
 #bg-about {
     z-index: -2;
     position: fixed;
@@ -128,4 +110,22 @@ body {
 #about-content span {
     font-size: x-large;
     text-align: center;
+}
+
+@media only screen and (max-width: 450px) {
+    #impor-head {
+        padding: 8px 10%;
+    }
+
+    #top-icon {
+        display: none;
+    }
+
+    #top-title {
+        font-size: large;
+    }
+
+    .top-menu-selection a {
+        font-size: medium;
+    }
 }
