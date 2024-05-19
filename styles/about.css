@@ -1,0 +1,127 @@
+:root {
+    --Primary-Color: #0A0A0A;
+    --Secondary-Color: #D4AF37;
+    --BG-Color: #18191A;
+    --Text-Color: #E3EEFE;
+}
+
+body {
+    color: var(--Text-Color);
+    background-color: var(--BG-Color);
+    direction: rtl;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#top-bar {
+    background-color: var(--Primary-Color);
+    color: var(--Text-Color);
+    width: 100%;
+    display: flex;
+}
+
+#icon-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    margin: 8px;
+    margin-right: 24px;
+}
+
+#top-icon {
+    height: 40px;
+    margin: 0 16px;
+}
+
+#top-title {
+    font-size: x-large;
+}
+
+.seprator {
+    flex: 1 1 auto;
+}
+
+#top-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 32px;
+}
+
+.top-menu-selection {
+    padding: 8px;
+}
+
+.top-menu-selection a {
+    font-size: larger;
+    color: var(--Text-Color);
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 400px) {
+    #top-icon {
+        display: none;
+    }
+
+    #top-title {
+        font-size: large;
+    }
+
+    .top-menu-selection a {
+        font-size: medium;
+    }
+}
+
+#bg-about {
+    z-index: -2;
+    position: fixed;
+    opacity: 0.1;
+}
+
+#content-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 auto;
+    margin: 0 0 64px 0;
+}
+
+#sa-logo {    
+    height: 72px;
+    margin-bottom: 16px;
+}
+
+#impor-head {
+    margin-top: 32px;
+    padding: 8px 128px;
+    border-radius: 16px;
+    border: 5px solid var(--Secondary-Color); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#impor-head h1, h2, h3, h4 {
+    margin: 0;
+}
+
+#about-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: center;
+    max-width: 60%;
+}
+
+#about-content span {
+    font-size: x-large;
+    text-align: center;
+}
